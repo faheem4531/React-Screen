@@ -1,0 +1,52 @@
+.card-body{
+    margin: 0;
+}
+.card-div{
+    background-color: #24252C;
+    border-radius: 9px;
+    width: 287px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.upper-div{
+    width: 71px;
+    height: 49.88px;
+    background: #F99F00;
+    font-weight: 700;
+    font-size: 26px;
+    border-radius: 5px;
+    margin-top: -25px;
+    text-align: center;
+    align-self: center;
+    
+}
+
+
+.text-div{
+    color: #B0B4CD;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+
+
+
+@media only screen and (max-width:1100px){
+
+    .card-div{
+        margin-bottom: 3rem;
+    }
+
+}

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.screen-div{
+    background-color: #2b2e34;
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+.header-screen{
+    padding: 36px 120px 0 120px;
+}
+.mid-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10rem 0 5rem 0;
+
+}
+.Heading-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+}
+.mid-para{
+    color: #A4AABE;
+    Size: 20px;
+    line-height: 51px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cards-alignment{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 15rem 0;
+
+}
+
+
+.bottom-clip{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.clip-img{
+    width: 100%;  
+}
+
+
+/* Responsive design */
+
+@media only screen and (max-width:1100px){
+    .header-screen{
+        padding: 36px 80px 0 80px;
+    }
+
+     .cards-alignment{
+        
+        margin: 1rem 0 5rem 0;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    } 
+
+
+        .mid-div{
+            padding: 7rem 0 5rem 0;
+        }
+        
+        .Heading-primary{
+            font-size: 40px;
+        }
+     }
+
+
+
+
+
+
+     @media only screen and (max-width:800px){
+        .header-screen{
+            padding: 36px 60px 0 60px;
+        }
+    
+         .cards-alignment{
+            
+            margin: 1rem 0 3rem 0;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+        } 
+    
+    
+            .mid-div{
+                padding: 5rem 0 3.5rem 0;
+            }
+            
+            .Heading-primary{
+                font-size: 32px;
+                font-weight: 500;
+            }
+
+            .mid-para{
+                
+                font-size: 15px;
+                font-weight: 400;
+            }
+         }
+
+
+
+
+
+         @media only screen and (max-width:650px){
+            .header-screen{
+                padding: 25px 40px 0 40px;
+            }
+        
+             .cards-alignment{             
+                margin: 1rem 0 1.2rem 0;
+            } 
+        
+        
+                .mid-div{
+                    padding: 3rem 0 2.5rem 0;
+                }
+                
+                .Heading-primary{
+                    font-size: 30px;
+                    font-weight: 400;
+                }
+    
+                .mid-para{
+                    
+                    font-size: 15px;
+                    font-weight: 300;
+                    line-height: 40px;
+                }
+             }
