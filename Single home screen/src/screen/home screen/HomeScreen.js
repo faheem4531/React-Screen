@@ -29,7 +29,7 @@ const HomeScreen = () => {
           <img className="clip-img"src={Footer}/>
         </div>   
 
-    </div>
+      </div>
     </div>
   )
 }
