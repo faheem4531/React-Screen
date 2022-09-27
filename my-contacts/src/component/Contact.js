@@ -1,20 +1,27 @@
 import React from "react";
 
-import contacts from "./ContactDetails";
+import Image from "./utility/Image";
+import Detail from "./utility/Detail";
 
 const Contact = (props) => {
-    return(
-        <div className="card">
-            <div className="top">
-                <h1 className="name">{props.name}</h1>
-                <img className="circle-img" src={props.img}/>
-            </div>
-            <div className="bottom">
-                <p className="info">{props.tele}</p>
-                <p className="info">{props.email}</p>
-            </div>
-        </div>
-    )
+  return (
+    <div className="card">
+      <div className="top">
+        <h1 className="name">{props.name}</h1>
+        <Image
+          img={props.img}
+        />
+      </div>
+      <div className="bottom">
+        <Detail
+          detailInfo={props.tele}
+        />
+        <Detail
+          detailInfo={props.email}
+        />
+      </div>
+    </div>
+  )
 }
 
 export default Contact

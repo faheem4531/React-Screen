@@ -2,12 +2,17 @@ import React from "react";
 
 import Contact from "./component/Contact";
 import contacts from "./component/ContactDetails";
+import Image from "./component/utility/Image";
 
 
 function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
+      <Image
+      img="https://avatars.githubusercontent.com/u/103141192?s=400&u=9ccb9bce2960c573b57feb2a4b33b02626e48722&v=4"
+      />
+      <h2 className="heading my-name">Mushab Faheem</h2>
       <Contact
         name={contacts[0].name}
         img={contacts[0].imgURL}

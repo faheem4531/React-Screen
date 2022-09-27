@@ -1,24 +1,24 @@
  const contacts = [
     {
-      name: "Beyonce",
+      name: "Natasha",
       imgURL:
-        "https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg",
+        "https://th.bing.com/th/id/OIP.HPx1wH6hJnNXRjGtROG6awHaHa?w=183&h=184&c=7&r=0&o=5&pid=1.7",
       phone: "+9230 45698789",
-      email: "b@beyonce.com"
+      email: "widow@marvel.com"
     },
     {
-      name: "Jack Bauer",
+      name: "Dr. Banner",
       imgURL:
-        "https://pbs.twimg.com/profile_images/625247595825246208/X3XLea04_400x400.jpg",
+        "https://th.bing.com/th/id/OIP.zC7ZguzXVU6cE7iLkSMBkgHaHa?pid=ImgDet&rs=1",
       phone: "+9238 65443321",
-      email: "jack@nowhere.com"
+      email: "hulk@destroy.com"
     },
     {
-      name: "Chuck Norris",
+      name: "Rocket Groot",
       imgURL:
-        "https://i.pinimg.com/originals/e3/94/47/e39447de921955826b1e498ccf9a39af.png",
+        "https://th.bing.com/th/id/R.90de78bc3b3250aa1d6362770ba40772?rik=PY7KuAyuRrIz6w&pid=ImgRaw&r=0",
       phone: "+9231 37235574",
-      email: "gmail@chucknorris.com"
+      email: "iamgroot@rocket.com"
     }
   ];
   
