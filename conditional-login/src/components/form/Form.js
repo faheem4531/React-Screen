@@ -7,7 +7,14 @@ const Form = () => {
   return (
     <form className="form">
       <h1>Hello</h1>
-      <Input />
+      <Input
+        type='text'
+        placeholder='Username'
+      />
+      <Input
+        type='passward'
+        placeholder='Password'
+      />
       <Button />
     </form>
   )
