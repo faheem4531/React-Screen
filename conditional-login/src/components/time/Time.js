@@ -3,6 +3,8 @@ import './style.css';
 
 const Time = () => {
 
+  //setInterval function will call updateTime fun at every 1000 mili sec
+  setInterval(updateTime,1000);
 
   const now = new Date().toLocaleTimeString();
 
@@ -18,8 +20,8 @@ const Time = () => {
     <h1 className="welcome-heading">Welcome</h1>
 
     <div className="time-div">
-      <h1>{now}</h1>
-      <button onClick={updateTime} className="btn-time">Update Time</button>
+      <h1>Current Time</h1>
+      <button onClick={updateTime} className="btn-time">{time}</button>
     </div>
     
     </div>
