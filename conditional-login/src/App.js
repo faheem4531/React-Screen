@@ -1,17 +1,23 @@
 import React from 'react';
-import Form from './components/form/Form';
+import Login from './components/form/Login';
 
-var isLoggedIn = true;
+
+
+var userIsRegistered = true;
+var mainDispaly = true;
 
 function App() {
   return (
     <div className="container">
       {
-        //Ternary Operator
-        // condition ? do if true : do if false
-
-        isLoggedIn ? <h1>Hello User</h1> : <Form />
+        mainDispaly ?
+          <Login
+            isRegister={userIsRegistered}
+          />
+          :
+          <h1>Welcome</h1>
       }
+
     </div>
   )
 }
