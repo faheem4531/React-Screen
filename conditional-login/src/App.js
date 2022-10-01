@@ -1,10 +1,10 @@
 import React from 'react';
 import Login from './components/form/Login';
-
+import Time from './components/time/Time';
 
 
 var userIsRegistered = true;
-var mainDispaly = true;
+var mainDispaly = false;
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
             isRegister={userIsRegistered}
           />
           :
-          <h1>Welcome</h1>
+          <Time/>
       }
 
     </div>
