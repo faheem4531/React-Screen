@@ -19,3 +19,34 @@
 .time-div{
   margin-top: 100px;
 }
+
+.btn-submit{
+  appearance: none;
+  outline: 0;
+  background-color: rgba(255, 255, 255, 0.753);
+  border: 0;
+  padding: 10px 15px;
+  color: #50a3a2;
+  border-radius: 3px;
+  width: 80px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+
+.name-input {
+  outline: 0;
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 200px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 8px 12px;
+  margin: 0 auto 0px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
