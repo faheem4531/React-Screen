@@ -1,8 +1,8 @@
-.welcome-heading{
-  font-size: 80px !important; 
+.welcome-heading {
+  font-size: 80px !important;
 }
 
-.btn-time{
+.btn-time {
   appearance: none;
   outline: 0;
   background-color: rgba(255, 255, 255, 0.753);
@@ -16,11 +16,11 @@
 }
 
 
-.time-div{
+.time-div {
   margin-top: 100px;
 }
 
-.btn-submit{
+.btn-submit {
   appearance: none;
   outline: 0;
   background-color: rgba(255, 255, 255, 0.753);
@@ -49,4 +49,8 @@
   font-size: 18px;
   color: white;
   font-weight: 300;
+}
+
+.name-input:not(:first-child) {
+  margin-top: 12px;
 }
