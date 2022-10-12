@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import { HomeContainer } from './container';
 
 function App() {
   return (
     <div>
-      <HomeContainer/>
+      <HomeContainer />
     </div>
   );
 }
